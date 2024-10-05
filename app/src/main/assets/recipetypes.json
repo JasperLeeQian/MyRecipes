@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "type": "Appetizer"
+  },
+  {
+    "id": 2,
+    "type": "Main"
+  },
+  {
+    "id": 3,
+    "type": "Soup"
+  },
+  {
+    "id": 4,
+    "type": "Dessert"
+  },
+  {
+    "id": 5,
+    "type": "Vegetarian"
+  }
+]

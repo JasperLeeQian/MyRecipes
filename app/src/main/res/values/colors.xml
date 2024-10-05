@@ -1,0 +1,26 @@
+<resources>
+    <!-- Primary branding colors -->
+    <color name="colorPrimary">#00796B</color> <!-- Teal for primary UI elements -->
+    <color name="colorPrimaryVariant">#004D40</color> <!-- Darker teal shade for status bars or variants -->
+    <color name="colorSecondary">#0288D1</color> <!-- Blue for accent actions, buttons -->
+    <color name="colorSecondaryVariant">#01579B</color>
+
+    <!-- Background and surface colors -->
+    <color name="colorBackground">#E0F7FA</color> <!-- Light teal background for app -->
+    <color name="colorSurface">#FFFFFF</color> <!-- White for cards and other surfaces -->
+
+    <!-- Text colors -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White text on primary elements -->
+    <color name="colorOnSecondary">#FFFFFF</color> <!-- White text on secondary elements -->
+    <color name="colorOnBackground">#004D40</color> <!-- Dark teal text for the main background -->
+    <color name="colorOnSurface">#212121</color> <!-- Dark gray text color for surfaces -->
+
+    <!-- Error colors -->
+    <color name="colorError">#D32F2F</color> <!-- Bright red for error states -->
+    <color name="colorOnError">#FFFFFF</color> <!-- White text for error states -->
+
+    <!-- Custom added colors -->
+    <color name="colorInputBackground">#B2EBF2</color> <!-- Very light teal background for inputs -->
+    <color name="colorAccent">#FFC107</color> <!-- Yellow accent color for backward compatibility -->
+    <color name="black">#000000</color>
+</resources>

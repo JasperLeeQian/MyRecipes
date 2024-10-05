@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "name": "Fried Chicken",
+    "type": "Main",
+    "imageUrl": "fried_chicken.jpg",
+    "ingredients": [
+      "Chicken thighs",
+      "Flour",
+      "Salt",
+      "Pepper",
+      "Garlic powder",
+      "Oil for frying"
+    ],
+    "steps": [
+      "Season the chicken with salt, pepper, and garlic powder.",
+      "Coat the chicken with flour.",
+      "Heat oil in a pan.",
+      "Fry the chicken until golden brown and cooked through."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ABC Soup",
+    "type": "Soup",
+    "imageUrl": "abc_soup.jpg",
+    "ingredients": [
+      "Carrots",
+      "Potatoes",
+      "Onion",
+      "Tomatoes",
+      "Pork ribs",
+      "Salt",
+      "Pepper"
+    ],
+    "steps": [
+      "Bring a pot of water to a boil.",
+      "Add pork ribs and simmer for 20 minutes.",
+      "Add carrots, potatoes, and onions, and continue simmering.",
+      "Add tomatoes and cook for another 10 minutes.",
+      "Season with salt and pepper."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Brownies",
+    "type": "Dessert",
+    "imageUrl": "brownies.jpeg",
+    "ingredients": [
+      "200g chocolate",
+      "100g butter",
+      "200g sugar",
+      "2 eggs",
+      "100g flour"
+    ],
+    "steps": [
+      "Melt the chocolate and butter together.",
+      "Mix in sugar, eggs, and flour.",
+      "Pour the batter into a baking dish.",
+      "Bake for 25 minutes at 180°C."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Beef Wellington",
+    "type": "Main",
+    "imageUrl": "beef_wellington.jpg",
+    "ingredients": [
+      "Beef tenderloin",
+      "Mushrooms",
+      "Prosciutto",
+      "Puff pastry",
+      "Egg yolk",
+      "Salt",
+      "Pepper"
+    ],
+    "steps": [
+      "Sear the beef tenderloin until browned on all sides.",
+      "Prepare a mushroom mixture and spread over the beef.",
+      "Wrap the beef in prosciutto and puff pastry.",
+      "Brush with egg yolk and bake at 200°C for 30 minutes."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Fish and Chips",
+    "type": "Main",
+    "imageUrl": "fish_and_chips.jpg",
+    "ingredients": [
+      "Cod fillets",
+      "Flour",
+      "Baking powder",
+      "Salt",
+      "Beer",
+      "Potatoes",
+      "Oil for frying"
+    ],
+    "steps": [
+      "Prepare a batter with flour, baking powder, salt, and beer.",
+      "Coat the fish fillets in the batter.",
+      "Deep fry until golden brown.",
+      "Fry the potatoes to make chips."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Oreo Ice Cream",
+    "type": "Dessert",
+    "imageUrl": "oreo_ice_cream.jpg",
+    "ingredients": [
+      "Whipping cream",
+      "Condensed milk",
+      "Crushed Oreo cookies"
+    ],
+    "steps": [
+      "Whip the cream until stiff peaks form.",
+      "Fold in the condensed milk and crushed Oreo cookies.",
+      "Freeze for at least 4 hours before serving."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Steam Chicken Rice",
+    "type": "Main",
+    "imageUrl": "steam_chicken_rice.jpg",
+    "ingredients": [
+      "Chicken thighs",
+      "Rice",
+      "Garlic",
+      "Ginger",
+      "Soy sauce",
+      "Sesame oil"
+    ],
+    "steps": [
+      "Marinate the chicken with soy sauce and sesame oil.",
+      "Steam the chicken until fully cooked.",
+      "Cook the rice with garlic and ginger.",
+      "Serve the chicken over the rice."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Soup Dumpling",
+    "type": "Appetizer",
+    "imageUrl": "soup_dumpling.jpg",
+    "ingredients": [
+      "Dumpling wrappers",
+      "Pork filling",
+      "Gelatin broth",
+      "Soy sauce",
+      "Vinegar"
+    ],
+    "steps": [
+      "Prepare the pork filling and mix in the gelatin broth.",
+      "Wrap the filling in dumpling wrappers.",
+      "Steam the dumplings until cooked.",
+      "Serve with soy sauce and vinegar."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Red Sauce Pasta",
+    "type": "Main",
+    "imageUrl": "red_sauce_pasta.jpg",
+    "ingredients": [
+      "Pasta",
+      "Tomato sauce",
+      "Garlic",
+      "Onion",
+      "Basil",
+      "Olive oil"
+    ],
+    "steps": [
+      "Cook the pasta according to the package instructions.",
+      "Sauté garlic and onion in olive oil.",
+      "Add the tomato sauce and basil, simmer for 15 minutes.",
+      "Toss the cooked pasta with the sauce and serve."
+    ]
+  }
+]

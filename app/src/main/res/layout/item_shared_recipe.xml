@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- ImageView for recipe image -->
+        <ImageView
+            android:id="@+id/recipe_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <!-- Recipe Name -->
+            <TextView
+                android:id="@+id/recipe_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recipe Name"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Recipe Category -->
+            <TextView
+                android:id="@+id/recipe_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/recipe_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Short description of the recipe goes here."
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Cooking Time -->
+            <TextView
+                android:id="@+id/recipe_cooking_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cooking Time: 30 mins"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Ingredients Label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingredients:"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Ingredients List (can be dynamically updated) -->
+            <TextView
+                android:id="@+id/recipe_ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spaghetti, Beef, Tomatoes"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Steps Label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steps:"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Steps List (can be dynamically updated) -->
+            <TextView
+                android:id="@+id/recipe_steps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Boil water. 2. Cook pasta. 3. Prepare sauce."
+                android:textAppearance="?attr/textAppearanceBody2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
